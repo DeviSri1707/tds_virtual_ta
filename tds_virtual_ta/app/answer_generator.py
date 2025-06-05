@@ -2,7 +2,7 @@ import openai
 from app.vectorstore import search_relevant_content
 from app.utils import extract_text_from_image
 
-openai.api_key = "your-openai-key"
+openai.api_key = "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"
 
 def generate_answer(question, image_b64):
     if image_b64:
