@@ -6,3 +6,4 @@ tqdm
 pytesseract
 Pillow
 python-dotenv
+gunicorn
