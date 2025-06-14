@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify
 from .answer_generator import generate_answer
-
 app = Flask(__name__)
 
 @app.route("/api/", methods=["POST"])
