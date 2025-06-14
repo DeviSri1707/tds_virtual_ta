@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
-from answer_generator import generate_answer
+from .answer_generator import generate_answer
+
 
 app = Flask(__name__)
 
