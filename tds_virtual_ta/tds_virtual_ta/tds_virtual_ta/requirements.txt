@@ -1,0 +1,9 @@
+Flask
+openai
+requests
+beautifulsoup4
+tqdm
+pytesseract
+Pillow
+python-dotenv
+gunicorn
